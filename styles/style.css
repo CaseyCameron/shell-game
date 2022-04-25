@@ -41,7 +41,7 @@ main {
 
 section {
     background-color: var(--color5);
-    max-width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,6 +61,36 @@ header {
     box-shadow: var(--shadow);
 }
 
+.shells {
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.shell {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.shell-game {
+    display: flex;
+}
+
+.shell img {
+    width: 100%;
+}
+
+.ball.reveal {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 5px -2px 5px rgb(0 0 0 / 60%);
+}
 
 h2 {
     font-size: 1.8rem;
